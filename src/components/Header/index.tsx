@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/svg/logo.svg'
+import Logo from '../../assets/svg/logo_black.svg'
 import LogoDark from '../../assets/svg/logo_white.svg'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
@@ -102,7 +102,7 @@ const HeaderElementWrap = styled.div`
 
 const HeaderRow = styled(RowFixed)`
   ${({ theme }) => theme.mediaWidth.upToMedium`
-   width: 100%;
+    width: 100%;
   `};
 `
 
